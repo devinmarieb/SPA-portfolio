@@ -1,0 +1,18 @@
+
+@media screen and (max-width: 414px) {
+
+  .left {
+    width: 100%;
+    visibility: hidden;
+  }
+
+  .social {
+    visibility: visible;
+    position: static;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+}

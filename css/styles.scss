@@ -1,0 +1,160 @@
+@import 'homepage';
+
+body {
+  // background-color: #fafafa;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.project-card {
+  display: inline-block;
+  width: 550px;
+  vertical-align: top;
+}
+
+.project-image {
+  margin-right: 5px;
+  width: 400px;
+  height: 200px;
+}
+
+.stack {
+  margin: 0 15px 0 15px;
+}
+
+.stack-img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.project-title {
+  display: inline-block;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  line-height: 125%;
+  margin-bottom: 5px;
+}
+
+.project-link {
+  line-height: 125%;
+  margin: 0 0 5px 7px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.turing {
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: $hover;
+}
+
+.about-me {
+  margin: 5% 15px 0px 7px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 200%;
+}
+
+.me-photo {
+  height: 230px;
+}
+
+.turing-info {
+  display: flex;
+  justify-content: center;
+  background-color: $darkSection;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.39);
+  margin-bottom: 20px;
+}
+
+.turing-headline {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.turing-text {
+  text-align: center;
+  font-size: 24px;
+}
+
+.turing-section {
+  margin: 20px 60px;
+}
+
+.triangle-down-resume {
+  @include triangle;
+  border-top: 20px solid $darkSection;
+}
+
+.resume-footer {
+  top: 35px;
+  left: 90px;
+  position: absolute;
+  text-align: center;
+}
+
+.resume-text {
+  font-size: 24px;
+}
+
+.home-btn {
+  height: 75px;
+  width: 75px;
+  padding: 5px;
+  font-size: 12px;
+  background-color: $hover;
+  color: $lightSection;
+  outline: none;
+  border: none;
+}
+
+.home-btn:hover {
+  height: 75px;
+  width: 75px;
+  padding: 5px;
+  font-size: 12px;
+  background-color: $lightSection;
+  color: $fontColor;
+}
+
+.home-container {
+  display: inline-block;
+}
+
+.project-title {
+  font-size: 30px;
+}
+
+.project-description {
+  font-size: 24px;
+}
+
+.resume-title {
+  font-size: 36px;
+  padding: 5px;
+}
+
+.resume-subtitle {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.paragraph {
+  font-size: 24px;
+  padding: 5px;
+}
+
+@import 'mediaQueryPhone';

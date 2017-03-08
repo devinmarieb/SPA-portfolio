@@ -1,0 +1,33 @@
+$fontColor: #3A3042;
+$bodyColor: #f6f0e8;
+$header: #3B413C;
+$darkBackground: #FFFCE5;
+$white: #FFFFFF;
+$black: #000000;
+$boxShadow: #888888;
+$hover: #FFAA00;
+$lightSection: #FFFEF7;
+$darkSection: #CCC9C3;
+
+
+@mixin resume-button {
+  background-color: transparent;
+  border: none;
+  font-size: 36px;
+  outline: none;
+  width: 75px;
+}
+
+@mixin social-links {
+  margin: 0 10px 0 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+@mixin triangle {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+}
